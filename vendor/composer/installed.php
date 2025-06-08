@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'woocommerce/woocommerce-order-barcodes',
+        'pretty_version' => 'dev-trunk',
+        'version' => 'dev-trunk',
+        'reference' => '905f16bffaab4acbebea23b046ee452cf9252c53',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'tecnickcom/tc-lib-barcode' => array(
+            'pretty_version' => '1.18.4',
+            'version' => '1.18.4.0',
+            'reference' => 'cd81392e6e1e57e0f6ff8519b1edbc11d8e47a44',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tecnickcom/tc-lib-barcode',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tecnickcom/tc-lib-color' => array(
+            'pretty_version' => '1.14.39',
+            'version' => '1.14.39.0',
+            'reference' => 'f7a414e7ddbdcd98105506ca1eecc68d4820fb89',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tecnickcom/tc-lib-color',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'woocommerce/woocommerce-order-barcodes' => array(
+            'pretty_version' => 'dev-trunk',
+            'version' => 'dev-trunk',
+            'reference' => '905f16bffaab4acbebea23b046ee452cf9252c53',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
