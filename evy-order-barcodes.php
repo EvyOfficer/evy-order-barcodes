@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Evy – Order Barcodes
+ * Plugin Name: Evy - Order Barcodes
  * Version: 1.0.0 (Based 1.9.1)
  * Plugin URI: https://github.com/EvyOfficer
  * Description: Generates unique barcodes for your orders - perfect for e-tickets, packing slips, reservations and a variety of other uses.
